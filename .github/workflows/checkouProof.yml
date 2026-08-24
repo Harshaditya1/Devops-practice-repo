@@ -2,6 +2,8 @@ name: The checkout proof
 
 on:
   push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
